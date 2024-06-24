@@ -1,21 +1,10 @@
 {
 	"pack": {
-		"pack_format": 15,
+		"pack_format": 48,
 		"supported_formats": {
-			"min_inclusive": 15,
-			"max_inclusive": 41
+			"min_inclusive": 48,
+			"max_inclusive": 48
 		},
-		"description": "Easily find and remove pesky item-wielding mobs from hard to find caves"
-	},
-	"overlays": {
-		"entries": [
-			{
-				"formats": {
-					"min_inclusive": 41,
-					"max_inclusive": 2147483647
-				},
-				"directory": "overlay_41"
-			}
-		]
+		"description": "Easily find and remove pesky item-wielding mobs from hard to find caves.\nFor 1.21.x"
 	}
 }
