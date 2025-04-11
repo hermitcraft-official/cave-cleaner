@@ -3,7 +3,7 @@
 		"pack_format": 48,
 		"supported_formats": {
 			"min_inclusive": 48,
-			"max_inclusive": 48
+			"max_inclusive": 71
 		},
 		"description": "Easily find and remove pesky item-wielding mobs from hard to find caves.\nFor 1.21.x"
 	}
