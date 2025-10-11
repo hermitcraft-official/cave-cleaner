@@ -10,3 +10,7 @@ In spectator mode you can use the following `/trigger` commands to view and remo
 - `/trigger cave_cleaner` - Remove all mobs within 16 blocks of your location.
 
 The item list for what consitutes a mob that should be found and cleaned is located [here](data/cave_cleaner/tags/items/unclean.json). The mob list for which mob types to clean is found [here](data/cave_cleaner/tags/entity_types/unclean.json).
+
+## Developing
+
+To make a new release, just push a commit with a message starting with `release: ` and the rest of the message will be used as the release title.
