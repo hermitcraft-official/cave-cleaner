@@ -1,0 +1,55 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Cave Cleaner Triggers",
+    "external_title": "Cave Cleaner",
+    "body": {
+        "type": "minecraft:plain_message",
+        "contents": "These triggers only work if you are currently in spectator mode."
+    },
+    "inputs": [],
+    "columns": 1,
+    "actions": [
+        {
+            "label": "Trigger Cave Glow",
+            "tooltip": [
+                "",
+                {
+                    "text": "`/trigger cave_glow`",
+                    "color": "yellow"
+                },
+                "\n\n",
+                "Make mobs within 16 blocks of your location glow for 10 seconds."
+            ],
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger cave_glow"
+            }
+        },
+        {
+            "label": "Trigger Cave Cleaner",
+            "tooltip": [
+                "",
+                {
+                    "text": "`/trigger cave_cleaner`",
+                    "color": "yellow"
+                },
+                "\n\n",
+                "Remove all mobs within 16 blocks of your location.."
+            ],
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger cave_glow"
+            }
+        }
+    ],
+    "exit_action": {
+        "action": {
+            "type": "show_dialog",
+            "dialog": "minecraft:quick_actions"
+        },
+        "label": {
+            "translate": "gui.back"
+        },
+        "width": 200
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Cave Cleaner",
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": [
+                "Provides helpful `/trigger` commands to find and remove persistent mobs wielding certain items within a 16 block radius of your location.",
+                "\n\n",
+                "Primarily helpful for pruning the mob cap as these mobs are wielding common floor items that end up making them persist."
+            ],
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "text": "By rx97",
+                "color": "gray"
+            },
+            "width": 300
+        }
+    ],
+    "actions": [
+        {
+            "label": "Website",
+            "action": {
+                "type": "open_url",
+                "url": "https://github.com/hermitcraft-official/cave-cleaner"
+            }
+        },
+        {
+            "label": "Issues",
+            "action": {
+                "type": "open_url",
+                "url": "https://github.com/hermitcraft-official/cave-cleaner/issues"
+            }
+        }
+    ],
+    "exit_action": {
+        "action": {
+            "type": "show_dialog",
+            "dialog": "smithed:data_packs"
+        },
+        "label": {
+            "translate": "gui.back"
+        },
+        "width": 200
+    }
+}

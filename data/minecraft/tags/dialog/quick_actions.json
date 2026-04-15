@@ -1,0 +1,8 @@
+{
+    "values": [
+        {
+            "id": "cave_cleaner:quick_actions",
+            "required": false
+        }
+    ]
+}
